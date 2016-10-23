@@ -19,7 +19,7 @@ public class Main {
         operativa_cuenta(cuenta1, 0);
     }
 
-    //private static void operativa_cuenta(CCuenta cuenta1, float cantidad) {
+    private static void operativa_cuenta(CCuenta cuenta1, float cantidad) {
         try {
             cuenta1.retirar(2300);
         } catch (Exception e) {
